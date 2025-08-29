@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    background-color: #eca1dc;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: rgb(253, 203, 237);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.perfil {
+    position: fixed;
+    top: 20px; /* canto superior */
+    left: 20px; /* agora vai para a esquerda */
+    width: 180px;
+    text-align: center;
+    }
+    
+    /* Estilo da foto */
+    .perfil img {
+    width: 120px; /* largura da foto */
+    height: 120px; /* altura da foto */
+    border-radius: 50%; /* deixa redonda */
+    object-fit: cover; /* ajusta a imagem dentro do círculo */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* sombra */
+    }
+    
+    /* Estilo da bio */
+    .perfil p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    }
